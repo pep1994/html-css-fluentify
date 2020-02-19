@@ -258,6 +258,7 @@ nav img {
 .item-blu {
   width: 50%;
   float: left;
+  text-align: left;
 }
 
 .item-blu h2 {
@@ -448,4 +449,90 @@ nav img {
   text-align: center;
   margin-bottom: 70px;
   margin-top: 50px;
+}
+
+/* footer */
+
+footer {
+  background-color: #17406b;
+  margin-top: 110px;
+}
+
+.faqs {
+  background-color: #0f335a;
+  padding: 50px 0;
+}
+
+.f-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.f-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.faqs h2 {
+  color: white;
+  font-size: 38px;
+  font-weight: normal;
+  margin-left: 200px;
+}
+
+.faqs h4 {
+  color: #b4b4b4;
+  font-weight: normal;
+  font-size: 25px;
+  margin-left: 200px;
+}
+
+.contact, .condizioni {
+  width: 50%;
+  float: left;
+  padding: 50px 0;
+}
+
+.contact {
+  text-align: right;
+}
+
+.condizioni ul {
+  list-style-type: none;
+}
+
+.condizioni h6 {
+  color: white;
+  padding: 13px;
+  font-size: 15px;
+}
+
+.condizioni li {
+  padding: 13px;
+}
+
+.condizioni a {
+  color: #b4b4b4;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.condizioni a:hover {
+  text-decoration: underline;
+}
+
+.contact h4, .contact h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: normal;
+  padding: 15px;
+}
+
+
+.contact p {
+  color: #b4b4b4;
+  font-size: 18px;
+  padding: 15px;
+  line-height: 24px;
 }
