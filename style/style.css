@@ -245,3 +245,40 @@ nav img {
   color: rgba(0, 0, 0, 0.7);
   font-size: 35px;
 }
+
+/* sezione a due colonne con background blu */
+#articolo-blu {
+  background-color: #0d325a;
+}
+
+.item-blu img {
+  width: 650px;
+}
+
+.item-blu {
+  width: 50%;
+  float: left;
+}
+
+.item-blu h2 {
+  color: white;
+  font-size: 35px;
+  font-weight: normal;
+  margin-top: 120px;
+}
+
+.yellow {
+  color: #f9c425;
+}
+
+.item-blu p {
+  color: #cbcbcb;
+  line-height: 30px;
+  font-size: 20px;
+  padding: 20px 0;
+}
+
+.item-blu a {
+  color: #98c8f8;
+  font-size: 20px;
+}
