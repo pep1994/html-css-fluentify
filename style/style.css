@@ -2,7 +2,7 @@
 * {
   padding: 0;
   margin: 0;
-  box-sizing:
+  box-sizing: border-box;
 }
 
 h1 {
@@ -97,4 +97,73 @@ nav img {
 
 .title h1 {
   padding-bottom: 35px;
+}
+
+/* banner grey */
+.grey {
+  text-align: center;
+  background-color: #f9f9f9;
+
+}
+
+.grey h2 {
+  padding: 45px 0;
+  font-weight: normal;
+  font-size: 30px;
+}
+
+.grey h2 span {
+  color: #999;
+  font-size: 20px;
+}
+
+/* sezione a tre colonne */
+.container-3 {
+  max-width: 1200px;
+  margin: 20px auto 0;
+}
+
+.container-3::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.item-3 {
+  text-align: center;
+  width: 33.3333%;
+  float: left;
+  padding: 0 25px;
+}
+
+.subtitle h3 {
+  color: #7fb802;
+  font-weight: normal;
+  font-size: 28px;
+}
+
+.caption p {
+  color: #999;
+  line-height: 25px;
+  font-size: 19px;
+}
+
+.riga {
+  display: block;
+  width: 40px;
+  background-color: #999;
+  height: 2px;
+  margin: 18px auto;
+}
+
+.picture {
+  padding-bottom: 35px;
+}
+
+.picture img {
+  width: 150px;
+}
+
+#pc {
+  width: 225px;
 }
