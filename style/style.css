@@ -333,3 +333,36 @@ nav img {
   display: table;
   clear: both;
 }
+
+/* sezione device */
+.container-2 {
+  text-align: center;
+}
+
+#device {
+  line-height: 40px;
+}
+#device h2 {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 35px;
+  font-weight: normal;
+}
+
+#device h2 span {
+  color: #7fb802;
+}
+#device h5 {
+  color: #999;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+#device p {
+  color: #999;
+  font-size: 24px;
+  line-height: 24px;
+}
+#device a {
+  color: #98c8f8;
+  font-size: 20px;
+}
