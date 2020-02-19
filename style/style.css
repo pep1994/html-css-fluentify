@@ -1,0 +1,100 @@
+/* general */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing:
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+}
+/* header */
+header {
+  height: 550px;
+  background: url(../img/sfondo-header.jpg) no-repeat center;
+  background-size: cover;
+}
+
+nav {
+  width: 70%;
+  margin: 0 auto;
+}
+
+nav::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+nav img {
+  width: 150px;
+}
+
+.logo {
+  float: left;
+  margin-top: 18px;
+}
+
+.menu {
+  float: left;
+  margin: 45px 55px;
+}
+
+
+.menu ul, .log ul {
+  list-style-type: none;
+}
+
+.menu li, .log li {
+  display: inline-block;
+}
+
+.menu a {
+  padding-right: 12px;
+}
+
+.menu a:hover {
+  color: #f9c425;
+}
+.menu a, .log a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  display: inline-block;
+  float: left;
+}
+
+.log {
+  float: right;
+  margin-top: 34px;
+
+}
+
+.log a {
+  padding: 10px 20px;
+}
+
+.login {
+  border: solid 1px #4e8cb6;
+  border-radius: 5px;
+}
+
+.struttura-piano {
+  background-color: #7fb802;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 110px 250px;
+}
+
+.title h1 {
+  padding-bottom: 35px;
+}
