@@ -214,3 +214,34 @@ nav img {
   color: #98c8f8;
   font-size: 20px;
 }
+
+/* banner grey 2 */
+.grey.due {
+  margin-top: 40px;
+}
+
+.subtitle-g {
+  display: inline-block;
+  margin-right: 300px;
+}
+
+.select {
+  display: inline-block;
+}
+
+.select span {
+  color: #999;
+  font-size: 30px;
+}
+
+.select input {
+  padding: 8px;
+  font-size: 22px;
+  border-radius: 4px;
+  margin-left: 35px;
+}
+
+.subtitle-g h2 {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 35px;
+}
